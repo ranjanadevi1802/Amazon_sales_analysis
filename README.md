@@ -222,7 +222,7 @@ The script does not include the CSV import step and is not an idempotent migrati
 
 ## Report and verification
 
-Read the [25-page project analysis report](D:/amazon/Amazon_Sales_Analytics_Report.pdf) for the technical review, all five screenshots, detailed findings, and prioritized recommendations.
+Read the [25-page project analysis report](amazon/Amazon_Sales_Analytics_Report.pdf) for the technical review, all five screenshots, detailed findings, and prioritized recommendations.
 
 The review reran all 24 notebook code cells against the source CSVs and inspected the SQL statements, PBIX visual definitions, filters, model diagram table names, and screenshots. SQL was reviewed statically rather than executed against a live MySQL instance. PBIX visual metadata does not constitute a complete audit of embedded DAX formulas or relationship filter directions.
 
